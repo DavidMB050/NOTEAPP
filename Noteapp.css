@@ -1,0 +1,91 @@
+
+
+#Appcadre {
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    
+    width: 800px;
+    height: fit-content;
+}
+
+h1 {
+    color: #D1A054;
+}
+
+#Note {
+    display: flex;
+    flex-direction:row ;
+    
+    align-items:end;
+    background-color: #E3DDD6;
+    color: #2D2C2A;
+    padding: 2%;
+    margin: 2%;
+    
+    border-radius: 10px;
+}
+#Notetitre {
+
+    width: 450px;
+    height: fit-content;
+border-bottom: 2px solid black;
+}
+
+#Elementhtml {
+    display: flex;
+    flex-direction: column; 
+    height: 300px;
+    border-radius: 2px;
+    margin: 2%;
+
+  justify-content: space-around;
+  
+}
+
+#Elementhtml button {
+background-color: #2D2C2A;
+color: #D1A054;
+padding: 1%;
+font-weight: bold;
+border-radius: 7%;
+width: 100px;
+height: fit-content;
+cursor: pointer;
+
+}
+
+#savebutton {
+    
+ 
+display: none;
+}
+
+#Notecorps {
+
+    width: 450px;
+    height: 300px;
+    border: 2px solid #2D2C2A;
+    border-radius: 10px;
+    margin-top: 2%;
+}
+
+#saveanddisplay {
+    width: 500px;
+    display: flex;
+    justify-content:left;
+   
+}
+
+#saveanddisplay button {
+
+       background-color: #2D2C2A;
+color: #D1A054;
+
+font-weight: bold;
+border-radius: 7%;
+width: 100px;
+height: fit-content;
+cursor: pointer;
+}
